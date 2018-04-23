@@ -1,7 +1,7 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s):Clayton Bruce
+	Date: 4/22/2018
 */
 
 /*
@@ -11,27 +11,27 @@
  What do you expect the loop to output?
  
  (a)
- Repeats:
- Expected output:
+ Repeats:10 times
+ Expected output:1 11 21 31 41 51 61 71 81 91 (1 then increase by 10 each loop)
  (b)
- Repeats:
- Expected output:
+ Repeats: never
+ Expected output:max is 10 so loop will do nothing
  (c)
- Repeats:
- Expected output:
+ Repeats:Inf
+ Expected output:Loops 250 FOREVERRRR
  (d)
- Repeats:
- Expected output:
+ Repeats: never
+ Expected output:Conditions don't meet so prints nothing again!
    
  */
 
 /*
  Was your prediction correct?
  
- (a)
- (b)
- (c)
- (d)
+ (a) Yes
+ (b) Yes
+ (c) Yes
+ (d) Yes
 
 */
 public class P1_LoopPredictions {
@@ -41,7 +41,11 @@ public class P1_LoopPredictions {
 		
 		
 		// copy and paste the loop to test between here, between the println statements
-		
+		// d
+		String word = "a";
+		while( word.length() < 10 ) {
+		    word = "b" + word + "b";
+		}
 				
 		System.out.println("ENDING LOOP TEST");
 	}
